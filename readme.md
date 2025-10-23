@@ -58,7 +58,7 @@ The agent should **decide what to do**, not just execute a fixed pipeline.
 ---
 
 ## UI Requirements
-- Simple dashboard (NextJS / React / Streamlit / ...)
+- Simple dashboard + chat (NextJS / React / Streamlit / ...)
 - Input selector for mission & parameters
 - Output tables: Findings, Proposals (with “Apply” buttons)
 - Optional: reasoning trace & audit-log viewer (sandbox/audit_log.json)
