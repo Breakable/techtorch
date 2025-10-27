@@ -60,5 +60,27 @@ The agent should **decide what to do**, not just execute a fixed pipeline.
 ## UI Requirements
 - Simple dashboard + chat (NextJS / React / Streamlit / ...)
 - Input selector for mission & parameters
-- Output tables: Findings, Proposals (with “Apply” buttons)
+- Output tables: Findings, Proposals (with "Apply" buttons)
 - Optional: reasoning trace & audit-log viewer (sandbox/audit_log.json)
+
+---
+
+## AI Tool Usage Tracking
+**Important:** Document all AI tool prompts used during this challenge in `candidate_prompts.md`. This includes:
+- ChatGPT, Claude, GitHub Copilot, Cursor, or any other AI tools
+- Exact prompts used and their context
+- Results and follow-up iterations
+- Reflection on tool effectiveness
+
+This documentation is part of the evaluation process and helps assess AI tool utilization skills.
+
+---
+
+## Submission
+**Submit your solution via private GitHub repository:**
+
+1. **Create a new private repository** on your personal GitHub account
+2. **Copy the challenge files** to your new repository  
+3. **Implement your solution** in the repository
+4. **Add the reviewer** as a collaborator with read access
+5. **Submit the repository URL** to the reviewer
