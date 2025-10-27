@@ -5,13 +5,6 @@ Please document all prompts you use with AI tools during this challenge. This he
 
 ---
 
-## Challenge Overview
-- **Start Time:** ___________
-- **End Time:** ___________
-- **Total Duration:** ___________
-
----
-
 ## AI Tool Usage Log
 
 ### Prompt 1
