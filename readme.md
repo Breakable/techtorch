@@ -1,9 +1,3 @@
-# AI Engineer Technical Challenge – The Revenue Leakage Agent  
-
-### Duration  
-1.5 hours (core demo)
-
----
 
 ## Context
 This challenge simulates an AI “financial detective” that investigates **revenue leakage** and can **propose and apply fixes** in a sandbox.  

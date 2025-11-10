@@ -1,0 +1,41 @@
+[
+  {
+    "id": "prop-1762787654720",
+    "type": "make_good_invoice",
+    "status": "pending",
+    "created_at": "2025-11-10T15:14:14.720Z",
+    "details": {
+      "plan_id": "C-1001",
+      "amount": 8000,
+      "currency": "USD",
+      "reason": "Missing invoice for September 2025. The billing plan C-1001 specifies a monthly cadence with an expected amount of $8,000 USD per month. Invoices for January to August and October 2025 are present, but September 2025 is missing, indicating a revenue gap.",
+      "proposed_at": "2025-11-10T15:14:14.720Z"
+    }
+  },
+  {
+    "id": "prop-1762787707999",
+    "type": "make_good_invoice",
+    "status": "pending",
+    "created_at": "2025-11-10T15:15:07.999Z",
+    "details": {
+      "plan_id": "C-1001",
+      "amount": 8000,
+      "currency": "USD",
+      "reason": "The invoice for September 2025 is missing. The billing plan C-1001 specifies a monthly cadence with an expected amount of $8,000 USD per month. Invoices were issued from January to August 2025 and then in October 2025, but September 2025 is missing, indicating a gap in the billing sequence.",
+      "proposed_at": "2025-11-10T15:15:07.998Z"
+    }
+  },
+  {
+    "id": "prop-1762787730940",
+    "type": "make_good_invoice",
+    "status": "pending",
+    "created_at": "2025-11-10T15:15:30.940Z",
+    "details": {
+      "plan_id": "C-1001",
+      "amount": 8000,
+      "currency": "USD",
+      "reason": "Missing invoice for September 2025. The plan C-1001 specifies a monthly billing cadence with an expected invoice of $8,000 USD each month. Invoices for January through August 2025 and October 2025 are present, but September 2025 is missing.",
+      "proposed_at": "2025-11-10T15:15:30.940Z"
+    }
+  }
+]

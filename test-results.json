@@ -1,0 +1,83 @@
+{
+  "timestamp": "2025-11-10T15:02:28.113Z",
+  "summary": {
+    "total": 12,
+    "passed": 10,
+    "failed": 1,
+    "info": 1
+  },
+  "results": [
+    {
+      "test": "Environment Config",
+      "status": "PASS",
+      "details": "API key configured",
+      "timestamp": "2025-11-10T15:02:26.057Z"
+    },
+    {
+      "test": "Data File: data/billing_plans.json",
+      "status": "PASS",
+      "details": "File exists",
+      "timestamp": "2025-11-10T15:02:26.057Z"
+    },
+    {
+      "test": "Data File: data/invoices.json",
+      "status": "PASS",
+      "details": "File exists",
+      "timestamp": "2025-11-10T15:02:26.058Z"
+    },
+    {
+      "test": "Data File: data/exchange_rates.json",
+      "status": "PASS",
+      "details": "File exists",
+      "timestamp": "2025-11-10T15:02:26.058Z"
+    },
+    {
+      "test": "Data File: data/credit_memos.json",
+      "status": "PASS",
+      "details": "File exists",
+      "timestamp": "2025-11-10T15:02:26.058Z"
+    },
+    {
+      "test": "Sandbox File: sandbox/proposals.json",
+      "status": "PASS",
+      "details": "Contains 0 items",
+      "timestamp": "2025-11-10T15:02:26.058Z"
+    },
+    {
+      "test": "Sandbox File: sandbox/applied_actions.json",
+      "status": "PASS",
+      "details": "Contains 0 items",
+      "timestamp": "2025-11-10T15:02:26.058Z"
+    },
+    {
+      "test": "Sandbox File: sandbox/audit_log.json",
+      "status": "PASS",
+      "details": "Contains 0 items",
+      "timestamp": "2025-11-10T15:02:26.058Z"
+    },
+    {
+      "test": "ACME Corp Data",
+      "status": "PASS",
+      "details": "Found 9 ACME Corp invoices",
+      "timestamp": "2025-11-10T15:02:26.058Z"
+    },
+    {
+      "test": "ACME Corp Anomaly Detection",
+      "status": "INFO",
+      "details": "Missing months detected: 9, 11, 12 (This is the test anomaly)",
+      "timestamp": "2025-11-10T15:02:26.058Z"
+    },
+    {
+      "test": "GET /api/proposals",
+      "status": "FAIL",
+      "details": "Invalid response format",
+      "timestamp": "2025-11-10T15:02:26.109Z"
+    },
+    {
+      "test": "POST /api/chat",
+      "status": "PASS",
+      "details": "Chat endpoint accepts messages",
+      "timestamp": "2025-11-10T15:02:28.112Z"
+    }
+  ]
+}
